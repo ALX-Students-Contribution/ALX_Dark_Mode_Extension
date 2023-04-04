@@ -107,6 +107,12 @@ We are incredibly thankful to the following people who have made valuable contri
         Contribute Now!
       </a>
     </td>
+ <td align="center">
+      <a href="https://github.com/Tosinkuzzy">
+        <img src="https://avatars.githubusercontent.com/u/99524902?v=4" width="100px" alt="Tosinkuzzy" title="Tosinkuzzy" />
+        <br />
+        Tosinkuzzy
+      </a>
 
   </tr>
 </table>

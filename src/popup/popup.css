@@ -9,6 +9,11 @@
   --dark-knight-bg-color: #0d1117;
   --dark-knight-text-color: #e6edf3;
   --dark-knight-border-color: #777777;
+
+  /* Darcula */
+  --darcula-bg-color: #191c26;
+  --darcula-text-color: #d8dee6;
+  --darcula-border-color: #c8d2e0;
 }
 
 .light-hero {
@@ -23,25 +28,35 @@
   --border: var(--dark-knight-border-color);
 }
 
+.darcula {
+  --bg: var(--darcula-bg-color);
+  --text: var(--darcula-text-color);
+  --border: var(--darcula-border-color);
+}
+
 body {
   font-family: sans-serif;
   background: var(--bg);
   color: var(--text);
 }
+
 header {
   font-size: 12px;
   text-align: center;
   margin-bottom: 5px;
 }
+
 .popup {
   width: 155px;
   background: var(--bg);
 }
+
 .themes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .unique-theme {
   width: 72px;
   text-align: center;
@@ -68,11 +83,13 @@ header {
   display: flex;
   align-items: center;
 }
+
 .button img {
   position: relative;
   height: 12px;
   margin: 5px;
 }
+
 .button button {
   display: flex;
   height: 24px;
